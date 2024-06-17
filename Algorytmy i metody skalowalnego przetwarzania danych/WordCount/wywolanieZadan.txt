@@ -1,0 +1,11 @@
+3.1
+type hamlet.txt | python zad1mapper.py | python sort.py | python zad1reducer.py > output.txt
+3.2
+type hamlet.txt | python zad2mapper.py | python sort.py | python zad1reducer.py > output.txt
+3.3
+python zad3.py hamlet.txt
+3.4
+docker build -t my_spark_image .
+docker run -it --rm --user root my_spark_image /bin/bash
+pip install nltk
+/opt/spark/bin/spark-submit zad4.py hamlet.txt

@@ -1,0 +1,8 @@
+3.1
+/opt/spark/bin/spark-submit zad1.py
+3.2
+/opt/spark/bin/spark-submit zad2.py
+3.3
+/opt/spark/bin/spark-submit zad3.py
+3.4
+/opt/spark/bin/spark-submit zad4.py
